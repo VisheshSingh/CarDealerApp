@@ -14,8 +14,10 @@
 	<!-- SET PROPERTY, IF * then it will take all properties--> 
 	<jsp:setProperty property="*" name="user"/>  
 	  
-	Record:<br>  
-	<jsp:getProperty property="username" name="user"/><br>  
-	<jsp:getProperty property="password" name="user"/><br>
+<!-- 	Record:<br>   -->
+<%-- 	<jsp:getProperty property="username" name="user"/><br>   --%>
+<%-- 	<jsp:getProperty property="password" name="user"/><br> --%>
+	
+	<jsp:forward page="Frontservlet" />  
 </body>
 </html>

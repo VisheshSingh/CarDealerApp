@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Frontservlet</servlet-name>
+  	<display-name>Frontservlet</display-name>
+  	<description>controller</description>
+  	<servlet-class>cardealershipwebproject.Frontservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Frontservlet</servlet-name>
+  	<url-pattern>/Frontservlet</url-pattern>
+  </servlet-mapping>
 </web-app>
